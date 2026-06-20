@@ -1,10 +1,10 @@
-Copyright (C) 2026 ZionXiaoxiSuOGLocGo
-SPDX-License-Identifier: GPL-3.0-or-later
-
 ---
 name: project-onboard
 description: Analyze any project directory and generate AGENTS.md for AI context. Use when the user asks to "onboard", "analyze this project", "understand this project", "generate AGENTS.md", or provides a project path they want to understand. Supports auto-detection of Unity, Unreal, Node.js, Python, Rust, Go, Java, C/C++, and general projects.
 ---
+
+Copyright (C) 2026 ZionXiaoxiSuOGLocGo
+SPDX-License-Identifier: GPL-3.0-or-later
 
 # Project Onboard
 
