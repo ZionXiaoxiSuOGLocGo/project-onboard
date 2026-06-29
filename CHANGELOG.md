@@ -1,5 +1,18 @@
 # project-onboard Changelog
 
+## [1.1.0] - 2026-06-29 — Community Contribution
+**Source**: PR #1 by Lulugue (first community contribution)
+
+### Added
+- **C#/.NET rule pack** (`references/csharp.md`): detection via `.csproj`/`.sln`, ASP.NET Core/Blazor/WPF/MAUI/EF Core classification, NuGet dependency analysis, appsettings.json parsing.
+- **Lua rule pack** (`references/lua.md`): detection via `.rockspec`/`lua_modules/`/`.luacheckrc`, LÖVE2D/Neovim/OpenResty/WoW Addon/etc. classification, LuaRocks dependency analysis.
+
+### Principles
+- Community contributions welcome under GPL-3.0.
+- New rule packs follow the same structure as existing ones.
+
+---
+
 ## [1.0.1] - 2026-06-21 — Emergency Fix
 **Source**: ThirdPersonTest project usage feedback
 
