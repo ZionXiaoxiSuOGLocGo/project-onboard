@@ -1,7 +1,15 @@
 Copyright (C) 2026 ZionXiaoxiSuOGLocGo
 SPDX-License-Identifier: GPL-3.0-or-later
 
-# Project Onboard
+> **⚠️ DEPRECATED — This repository is no longer maintained.**
+>
+> The project-onboard skill has moved to **[project-ledger](https://github.com/Zions-store/project-ledger/tree/master/project-onboard)**, a collection of AI agent skills for project structure analysis and development logging.
+>
+> 👉 **New home**: https://github.com/Zions-store/project-ledger/tree/master/project-onboard
+>
+> This repo is preserved for historical reference — 4 stars, 13 commits, and the community contribution (PR #1 by Lulugue) remain here.
+
+# Project Onboard [DEPRECATED]
 
 Auto-detect project type and generate AGENTS.md for AI coding agents. Zero dependencies.
 
