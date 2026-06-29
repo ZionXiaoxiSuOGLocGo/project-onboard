@@ -27,7 +27,7 @@ Your agent instantly understands the project without you explaining anything.
 | Auto-detection + override | ❌ | **Auto-detect or `--type` force** |
 | Composable | Standalone | **Can chain with Understand-Anything** |
 | Cross-platform | Claude Code only | **opencode / Claude Code / Codex / Cursor** |
-| Footprint | Repo + Node.js + pnpm | **12 files, ~30KB** |
+| Footprint | Repo + Node.js + pnpm | **14 files, ~44KB** |
 
 ## Supported Project Types
 
@@ -41,6 +41,8 @@ Your agent instantly understands the project without you explaining anything.
 | Go | `go.mod` |
 | Java / Maven / Gradle | `pom.xml` / `build.gradle` |
 | C / C++ | `CMakeLists.txt` |
+| C# / .NET | `*.csproj` / `*.sln` (non-Unity) |
+| Lua | `*.rockspec` / `lua_modules/` |
 | General | Fallback for anything else |
 
 ## Installation
