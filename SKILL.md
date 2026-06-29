@@ -1,6 +1,6 @@
 ---
 name: project-onboard
-description: Analyze any project directory and generate AGENTS.md for AI context. Use when the user asks to "onboard", "analyze this project", "understand this project", "generate AGENTS.md", or provides a project path they want to understand. Supports auto-detection of Unity, Unreal, Node.js, Python, Rust, Go, Java, C/C++, and general projects.
+description: Analyze any project directory and generate AGENTS.md for AI context. Use when the user asks to "onboard", "analyze this project", "understand this project", "generate AGENTS.md", or provides a project path they want to understand. Supports auto-detection of Unity, Unreal, Node.js, Python, Rust, Go, Java, C/C++, C#, Lua, and general projects.
 ---
 
 Copyright (C) 2026 ZionXiaoxiSuOGLocGo
@@ -22,7 +22,7 @@ Turn any project directory into an AGENTS.md that gives the AI agent instant pro
 ## Parameters
 
 - **path** (required): Project directory path
-- **type** (optional): Force project type, skip auto-detection. Values: `unity`, `unreal`, `nodejs`, `python`, `rust`, `go`, `java`, `cpp`, `general`
+- **type** (optional): Force project type, skip auto-detection. Values: `unity`, `unreal`, `nodejs`, `python`, `rust`, `go`, `java`, `cpp`, `csharp`, `lua`, `general`
 - **output** (optional): Where to save AGENTS.md. Default: `<project_root>/AGENTS.md`
 
 ## Execution Flow
@@ -45,6 +45,8 @@ Use `glob` to look for 50-100 top-level entries. Match against the detection tab
 | `go.mod` | go | `references/go.md` |
 | `pom.xml` or `build.gradle` | java | `references/java.md` |
 | `CMakeLists.txt` | cpp | `references/cpp.md` |
+| `*.csproj` or `*.sln` without `Assets/` | csharp | `references/csharp.md` |
+| `*.rockspec` or `lua_modules/` or `.luacheckrc` | lua | `references/lua.md` |
 | `Dockerfile` + `docker-compose.yml` | docker | `references/general.md` |
 | `*.sql` + `migrations/` | database | `references/general.md` |
 | `.glsl` or `.hlsl` files in top-level search | shader | `references/general.md` |
